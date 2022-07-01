@@ -1,0 +1,31 @@
+.firstscreen {
+}
+.firstscreen-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.firstscreen-left {
+  width: 500px;
+}
+.main-title {
+  font-size: 42px;
+  margin-bottom: 30px;
+}
+.main-title__span {
+  display: block;
+  font-weight: 300;
+}
+.firstscreen-text {
+}
+.firstscreen-right {
+}
+.firstscreen-right__img {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.firstscreen-right__img img {
+  width: 100%;
+}

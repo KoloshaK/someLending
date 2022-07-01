@@ -1,0 +1,35 @@
+.passions {
+}
+.passions-row {
+  display: flex;
+  justify-content: space-between;
+}
+.passions-item {
+  width: 347px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+.passions-item__content {
+  padding: 20px;
+}
+.passions-item__img {
+  width: 225px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.passions-item__img img {
+  width: 100%;
+}
+.passions-item__title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+.passions-item__title-span {
+  font-weight: 300;
+}
+.passions-item__description p {
+  text-align: center;
+}

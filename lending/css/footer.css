@@ -1,0 +1,32 @@
+.footer {
+   height: 330px;
+   position: relative;
+}
+
+.footer::before {
+  content: "";
+  width: 100%;
+  height: 330px;
+  display: block;
+  background-image: url("../imd/Vector.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  bottom: 0px;
+  left:0px;
+}
+.footer::after {
+   content: "Design By Rauliqbal";
+   width: 400px;
+   height: 54px;
+   font-weight: 400;
+   font-size: 35px;
+   position: absolute;
+   top: 75%;
+   left: 50%;
+   transform: translate( -35% , 20%);
+   color:rgba(255, 255, 255, 1);
+   ;
+     
+}

@@ -1,0 +1,49 @@
+.header {
+   padding: 20px 0;
+ }
+ .header-row {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+ }
+ .logo {
+   font-size: 24px;
+   font-weight: 500;
+ }
+ .logo::after {
+   content: "iqbal";
+   font-weight: 300;
+   color: cornflowerblue;
+ }
+ .header-info {
+   display: flex;
+   align-items: center;
+ }
+ .nav-list {
+   display: flex;
+   width: 340px;
+   justify-content: space-between;
+ }
+ .nav-list__item {
+   border-bottom: 2px solid transparent;
+ }
+ .nav-list__item:hover {
+   border-bottom: 2px solid cornflowerblue;
+ }
+ .nav-list__item a {
+   color: rgb(59, 59, 59);
+ }
+ .contact-me {
+   margin-left: 45px;
+   background-color: cornflowerblue;
+   color: #fff;
+   padding: 5px 10px;
+   border-radius: 20px;
+   cursor: pointer;
+   box-shadow: 0 0 15px rgba(100, 149, 237, 0.5);
+   transition: 0.2s ease;
+ }
+ .contact-me:hover {
+   background-color: #fff;
+   color: rgba(100, 149, 237, 1);
+ }

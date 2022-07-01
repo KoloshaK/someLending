@@ -1,0 +1,32 @@
+.contact {
+}
+
+.contact-row {
+   display: flex;
+   justify-content: space-between;
+}
+.contact-item {
+   width: 240px;
+}
+.contact-item-content {
+   padding: 20px;
+}
+.contact-img {
+   width: 160px;
+   height: 160px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: auto;
+   margin-bottom: 20px;
+}
+.contact-img img {
+   width: 100%;
+}
+.contact-title {
+   text-align: center;
+   font-size: 35px;
+   font-weight: 300;
+   color: rgba(63, 61, 86, 1);
+   ;
+}
